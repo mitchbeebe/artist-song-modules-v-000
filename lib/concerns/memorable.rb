@@ -1,9 +1,10 @@
 module Memorable
-  def self.reset_all
-    self.all = []
+  extend Song, Artist
+  def reset_all
+    all = []
   end
   
-  def self.count
-    self.all.length
+  def count
+    all.length
   end
 end
