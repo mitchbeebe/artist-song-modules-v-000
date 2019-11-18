@@ -1,5 +1,6 @@
 module Memorable
-  extend Song, Artist
+  extend Song
+  extend Artist
   def reset_all
     all = []
   end
